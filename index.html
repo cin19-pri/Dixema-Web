@@ -9,6 +9,10 @@
     <!-- Linking Swiper CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="icon"  type="image/png" sizes="35x35" href="images/logo-dixema.png">
+    <!-- Fontawesome link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
     <link rel="stylesheet" href="CSS/style.css" />
   </head>
   <body>
@@ -28,7 +32,7 @@
             <a href="#about" class="nav-link">¿Quiénes somos?</a>
           </li>
           <li class="nav-item">
-            <a href="#menu" class="nav-link">Filosofía</a>
+            <a href="#skills" class="nav-link">Filosofía</a>
           </li>
           <li class="nav-item">
             <a href="#testimonials" class="nav-link">Testimonios</a>
@@ -57,7 +61,7 @@
             </div>
           </div>
           <div class="hero-image-wrapper">
-            <img src="images/carrito-removebg-preview.png" alt="imagen" class="hero-image" />
+            <img src="images/hero-girl.png" alt="imagen" class="hero-image" />
           </div>
         </div>
       </section>
@@ -80,55 +84,33 @@
         </div>
       </section>
       <!-- Filosofia -->
-      <section class="menu-section" id="menu">
+      <section class="container py-5" id="skills">
+      <div class="row d-flex justify-content-between mx-0">
         <h2 class="section-title">Filosofía</h2>
-        <div class="section-content">
-          <!--<ul class="menu-list">
-            <li class="menu-item">
-              <img src="images/hot-beverages.png" alt="Hot Beverages" class="menu-image" />
-              <div class="menu-details">
-                <h3 class="name">Hot Beverages</h3>
-                <p class="text">Wide range of Steaming hot coffee to make you fresh and light.</p>
-              </div>
-            </li>
-            <li class="menu-item">
-              <img src="images/cold-beverages.png" alt="Cold Beverages" class="menu-image" />
-              <div class="menu-details">
-                <h3 class="name">Cold Beverages</h3>
-                <p class="text">Creamy and frothy cold coffee to make you cool.</p>
-              </div>
-            </li>
-            <li class="menu-item">
-              <img src="images/refreshment.png" alt="Refreshment" class="menu-image" />
-              <div class="menu-details">
-                <h3 class="name">Refreshment</h3>
-                <p class="text">Fruit and icy refreshing drink to make feel refresh.</p>
-              </div>
-            </li>
-            <li class="menu-item">
-              <img src="images/special-combo.png" alt="Special Combos" class="menu-image" />
-              <div class="menu-details">
-                <h3 class="name">Special Combos</h3>
-                <p class="text">Your favorite eating and drinking combations.</p>
-              </div>
-            </li>
-            <li class="menu-item">
-              <img src="images/desserts.png" alt="Dessert" class="menu-image" />
-              <div class="menu-details">
-                <h3 class="name">Dessert</h3>
-                <p class="text">Satiate your palate and take you on a culinary treat.</p>
-              </div>
-            </li>
-            <li class="menu-item">
-              <img src="images/burger-frenchfries.png" alt="burger & French Fries" class="menu-image" />
-              <div class="menu-details">
-                <h3 class="name">Burger & French Fries</h3>
-                <p class="text">Quick bites to satisfy your small size hunger.</p>
-              </div>
-            </li>
-          </ul>-->
+        <div class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4" style="width: 25rem">
+          <i class="text-white bg-warning d-flex align-items-center justify-content-center fs-2 rounded-circle fa-solid fa-flag"></i>
+          <h3 class="mt-4 h4">Misión</h3>
+          <p class="text-center"><br>Transformar el comercio mayorista en México ofreciendo una experiencia digital segura, rápida y confiable que conecte a vendedores y compradores, facilitando negocios de gran volumen y generando oportunidades de crecimiento para todos.
+          </p>
         </div>
-      </section>
+        <div class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4" style="width: 25rem">
+          <i class="text-white bg-warning d-flex align-items-center justify-content-center fs-2 rounded-circle fa-solid fa-lightbulb"></i>
+          <h3 class="mt-4 h4">Visión</h3>
+          <p class="text-center"><br>Liderar la evolución del comercio mayorista en México mediante un ecosistema digital B2B, donde cada empresa, pueda acceder fácilmente a oportunidades mayoristas a través de una plataforma digital segura, transparente y preparada para transformar el comercio del futuro.</p>
+        </div>
+        <div class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4" style="width: 25rem">
+          <i class="text-white bg-warning d-flex align-items-center justify-content-center fs-2 rounded-circle fa-solid fa-heart"></i>
+          <h3 class="mt-4 h4">Valores</h3>
+          <ul class="text-center">
+            <li style="padding: 10px; margin-right: 31px;">Confianza</li>
+            <li style="padding: 10px; margin-right: 33px;">Eficiencia</li>
+            <li style="padding: 10px; margin-right: 0px;">Transparencia</li>
+            <li style="padding: 10px; margin-right: 28px;">Seguridad</li>
+            <li style="padding: 10px; margin-right: 22px;">Innovación</li>
+          </ul>
+        </div>
+      </div>
+    </section>
       <!-- Testimonials section -->
       <section class="testimonials-section" id="testimonials">
         <h2 class="section-title">Testimonios</h2>
@@ -153,7 +135,7 @@
                 </li>
                 <li class="testimonial swiper-slide">
                   <img src="images/user-4.jpg" alt="User" class="user-image" />
-                  <h3 class="name">Emilia Sandoval</h3>
+                  <h3 class="name">Emilio Sandoval</h3>
                   <i class="feedback">“Dixema simplificó por completo mis compras mayoristas.”</i>
                 </li>
                 <li class="testimonial swiper-slide">
