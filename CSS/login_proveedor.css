@@ -223,7 +223,7 @@ button:hover .arrow:before {
 
 /* --- 12. SECCIÓN DERECHA (IMAGEN DE FONDO) --- */
 .image-section {
-    background-image: url('../Imagenes/fondo_intento.jpg'); 
+    background-image: url('../images/fondo_intento.jpg'); 
     flex: 1;                        /* Toma el espacio restante (la otra mitad) */
     background-size: cover;         /* La imagen cubre todo el espacio sin deformarse */
     background-position: center;    /* Centra la imagen en su contenedor */
